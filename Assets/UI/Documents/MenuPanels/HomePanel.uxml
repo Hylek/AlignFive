@@ -1,0 +1,14 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Styles/panelstyles.uss?fileID=7433441132597879392&amp;guid=df695c5afeed84701847dc5bd5ddeb50&amp;type=3#panelstyles" />
+    <engine:VisualElement name="HomeRoot" class="rootpanel">
+        <engine:VisualElement name="Background" class="rootpanel background" />
+        <engine:Label text="alignFIVE" name="TitleLabel" style="color: rgb(255, 255, 255); font-size: 75px; top: 5%;" />
+        <engine:VisualElement style="height: 80%;" />
+        <engine:GroupBox name="ButtonBox" style="bottom: 5%; width: 300px;">
+            <engine:Button text="Host Game" name="HostGameButton" />
+            <engine:Button text="Join Game" name="JoinGameButton" />
+            <engine:Button text="Settings" name="SettingsButton" />
+            <engine:Button text="Quit" name="QuitGameButton" />
+        </engine:GroupBox>
+    </engine:VisualElement>
+</engine:UXML>

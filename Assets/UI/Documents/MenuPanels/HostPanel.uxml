@@ -1,0 +1,27 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Styles/panelstyles.uss?fileID=7433441132597879392&amp;guid=df695c5afeed84701847dc5bd5ddeb50&amp;type=3#panelstyles" />
+    <engine:VisualElement name="HostRoot" class="rootpanel">
+        <engine:VisualElement name="Background" class="rootpanel background" />
+        <engine:Label text="Lobby" name="TitleLabel" style="color: rgb(255, 255, 255); font-size: 50px; top: 3%; bottom: auto; margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; position: absolute;" />
+        <engine:VisualElement name="InnerPanel" style="width: 80%; height: 70%; background-color: rgb(59, 66, 82); align-self: auto; flex-direction: row; padding-top: 25px; padding-right: 25px; padding-bottom: 25px; padding-left: 25px;">
+            <engine:VisualElement name="SideA" style="flex-grow: 1; justify-content: space-between; align-self: stretch; align-items: center; width: 50%;">
+                <engine:Label text="Player Name" name="SideANameLabel" style="font-size: 30px; color: rgb(255, 255, 255); -unity-text-align: upper-center;" />
+                <engine:Label text="Player Name Is Ready" name="SideAStatusLabel" style="font-size: 30px; color: rgb(255, 255, 255); -unity-text-align: upper-center;" />
+                <engine:Button text="Ready" name="SideAReadyButton" style="width: 500px;" />
+            </engine:VisualElement>
+            <engine:VisualElement name="SideB" style="flex-grow: 1; justify-content: space-between; width: 50%; align-items: center;">
+                <engine:Label text="Player Name" name="SideBNameLabel" style="font-size: 30px; color: rgb(255, 255, 255); -unity-text-align: upper-center;" />
+                <engine:Label text="Player Name is Ready" name="SideBStatusLabel" style="font-size: 30px; color: rgb(255, 255, 255); -unity-text-align: upper-center;" />
+                <engine:Button text="Ready" name="SideBReadyButton" style="width: 500px;" />
+            </engine:VisualElement>
+        </engine:VisualElement>
+        <engine:Button text="Back" name="BackButton" class="backButton" />
+        <engine:VisualElement name="CodePopup" class="rootpanel rootpanel-hide" style="position: absolute; width: 100%; height: 100%; justify-content: center; align-self: center; align-items: center; align-content: center; background-color: rgba(0, 0, 0, 0.59);">
+            <engine:VisualElement name="PopupPanel" class="background" style="position: absolute; width: 700px; height: 250px; justify-content: space-between;">
+                <engine:Label text="Show the following code to the other player" name="InstructionLabel" style="-unity-text-align: upper-center; color: rgb(255, 255, 255); font-size: 25px; top: 20px;" />
+                <engine:Label text="Label" name="JoinCodeLabel" style="color: rgb(255, 255, 255); -unity-font-style: bold; font-size: 50px; -unity-text-align: upper-center;" />
+                <engine:Button text="Confirm" name="ConfirmButton" />
+            </engine:VisualElement>
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

@@ -1,0 +1,12 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Styles/panelstyles.uss?fileID=7433441132597879392&amp;guid=df695c5afeed84701847dc5bd5ddeb50&amp;type=3#panelstyles" />
+    <engine:VisualElement name="NameRoot" class="rootpanel">
+        <engine:VisualElement name="Background" class="rootpanel background" style="flex-grow: 1;" />
+        <engine:VisualElement name="CentralBox" style="width: 600px; height: 250px; background-color: rgb(59, 66, 82); justify-content: space-between; padding-top: 20px; padding-right: 2%; padding-bottom: 20px; padding-left: 2%;">
+            <engine:Label text="Enter Name" name="EnterLabel" style="color: rgb(255, 255, 255); -unity-text-align: upper-center; font-size: 30px;" />
+            <engine:TextField placeholder-text="Enter Name Here" name="NameField" />
+            <engine:Button text="Submit" name="SubmitButton" />
+        </engine:VisualElement>
+        <engine:Button text="Back" name="BackButton" class="backButton" />
+    </engine:VisualElement>
+</engine:UXML>

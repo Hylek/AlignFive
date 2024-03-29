@@ -1,0 +1,10 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Styles/panelstyles.uss?fileID=7433441132597879392&amp;guid=df695c5afeed84701847dc5bd5ddeb50&amp;type=3#panelstyles" />
+    <engine:VisualElement name="DialogueRoot" class="rootpanel">
+        <engine:VisualElement name="Background" class="rootpanel" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.59);" />
+        <engine:VisualElement name="DialogueBox" style="position: absolute; width: 700px; height: 300px; background-color: rgb(76, 86, 106); align-items: center; align-self: center; align-content: center; padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px;">
+            <engine:Label text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." name="DialogueLabel" style="width: 100%; height: 75%; color: rgb(229, 233, 240); font-size: 20px; text-overflow: clip; white-space: normal; -unity-text-align: upper-center;" />
+            <engine:Button text="Close" name="DialogueButton" style="bottom: 5%; position: absolute; width: 400px;" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

@@ -1,0 +1,9 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Styles/panelstyles.uss?fileID=7433441132597879392&amp;guid=df695c5afeed84701847dc5bd5ddeb50&amp;type=3#panelstyles" />
+    <engine:VisualElement name="SettingsRoot" class="rootpanel">
+        <engine:VisualElement name="Background" class="background rootpanel" style="flex-grow: 1;" />
+        <engine:Label text="Settings" name="TitleLabel" style="top: 1%; position: absolute; -unity-text-align: upper-center; font-size: 50px; color: rgb(255, 255, 255);" />
+        <engine:VisualElement name="PanelBody" style="position: absolute; width: 80%; height: 80%; background-color: rgb(59, 66, 82);" />
+        <engine:Button text="Back" name="BackButton" class="backButton" />
+    </engine:VisualElement>
+</engine:UXML>
